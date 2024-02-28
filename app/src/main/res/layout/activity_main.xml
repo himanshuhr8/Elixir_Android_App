@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F3FE"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:backgroundTint="#6F58FC"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-2dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="75dp"
+            android:fontFamily="sans-serif-black"
+            android:text="ELIXIR"
+            android:textColor="@color/white"
+            android:textSize="35dp"
+            android:textStyle="bold" >
+        </TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="sans-serif-black"
+            android:text="The Tech Community"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="900dp"
+            android:layout_marginTop="200dp"
+            android:backgroundTint="#EEFCFCFC"
+            app:cardCornerRadius="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#FBAEAE"
+                android:outlineSpotShadowColor="#DE1A1A"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#71CEB9"
+                android:outlineSpotShadowColor="#DE1A1A"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="270dp"
+                android:backgroundTint="#9A9FFD"
+                android:outlineSpotShadowColor="#DE1A1A"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="240dp"
+                android:backgroundTint="#FFA95B"
+                android:outlineSpotShadowColor="#DE1A1A"
+                app:cardCornerRadius="25dp"
+                app:cardElevation="20dp" />
+
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
