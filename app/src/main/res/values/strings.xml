@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Elixir</string>
+
+    <string name="notes">
+       <b><i><u>NOTES</u></i></b>
+    </string>
+    <string name="gfg_description">GeeksforGeeks ABESEC aims to create an advanced
+        community where learning and fun coexist.This motivates developers to grow and excel together.
+    </string>
+
+    <string name="cc_description">In CodeChef ABESEC, we create an environment for members to challenge themselves,
+    collaborate, and improve their skills, leading to unanimous success.
+    </string>
+
+    <string name="gdsc_description">GDSC ABESEC fosters learning, collaboration, and personal growth,
+        exploring new technologies and exchanging knowledge for success.
+    </string>
+
 </resources>

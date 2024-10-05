@@ -12,7 +12,8 @@
         android:layout_height="800dp"
         android:backgroundTint="#6F58FC"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="-2dp">
+        tools:layout_editor_absoluteY="-2dp"
+        tools:ignore="MissingConstraints">
 
 
         <TextView
@@ -26,7 +27,6 @@
             android:textSize="35dp"
             android:textStyle="bold" >
         </TextView>
-
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,6 +49,7 @@
             app:cardCornerRadius="40dp">
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/home"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_marginLeft="40dp"
@@ -56,9 +57,18 @@
                 android:backgroundTint="#FBAEAE"
                 android:outlineSpotShadowColor="#DE1A1A"
                 app:cardCornerRadius="25dp"
-                app:cardElevation="20dp" />
+                app:cardElevation="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Home"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/event"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="220dp"
@@ -66,9 +76,18 @@
                 android:backgroundTint="#71CEB9"
                 android:outlineSpotShadowColor="#DE1A1A"
                 app:cardCornerRadius="25dp"
-                app:cardElevation="20dp" />
+                app:cardElevation="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Event"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/team"
                 android:layout_width="150dp"
                 android:layout_height="170dp"
                 android:layout_marginLeft="40dp"
@@ -76,9 +95,18 @@
                 android:backgroundTint="#9A9FFD"
                 android:outlineSpotShadowColor="#DE1A1A"
                 app:cardCornerRadius="25dp"
-                app:cardElevation="20dp" />
+                app:cardElevation="20dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Team"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
+                android:id="@+id/notes"
                 android:layout_width="150dp"
                 android:layout_height="200dp"
                 android:layout_marginLeft="220dp"
@@ -86,12 +114,18 @@
                 android:backgroundTint="#FFA95B"
                 android:outlineSpotShadowColor="#DE1A1A"
                 app:cardCornerRadius="25dp"
-                app:cardElevation="20dp" />
+                app:cardElevation="20dp" >
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notes"
+                    android:textSize="25dp"
+                    android:layout_gravity="center"/>
+            </androidx.cardview.widget.CardView>
 
         </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
