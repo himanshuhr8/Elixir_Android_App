@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "109144840166",
+    "project_id": "elixir-bccf4",
+    "storage_bucket": "elixir-bccf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109144840166:android:6d6ca3cd19c9ecf7f2e827",
+        "android_client_info": {
+          "package_name": "com.example.elixir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUVXpwB4TzCUHKWcP0dRU2k4q_3ju7EXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("com.google.gms.google-services")
+
 }
 
 android {
@@ -42,6 +44,8 @@ android {
 
 dependencies {
 
+    implementation("com.google.firebase:firebase-firestore-ktx:25.1.0")
+    implementation("androidx.activity:activity:1.9.2")
     val nav_version = "2.7.7"
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
@@ -63,4 +67,7 @@ dependencies {
 
     //picasso for loading images
     implementation("com.squareup.picasso:picasso:2.8")
+    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation ("androidx.security:security-crypto:1.1.0-alpha03")
 }
